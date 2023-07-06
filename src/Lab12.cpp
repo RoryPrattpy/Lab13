@@ -28,7 +28,7 @@ float longitude = 0.0;
 float latitude = 0.0;
 bool getLatAndLongBoolean = false;
 
-Timer getLatAndLong(15000, callback2, false);
+Timer getLatAndLong(5000, callback2, false);
 
 BlynkTimer timer;
 
